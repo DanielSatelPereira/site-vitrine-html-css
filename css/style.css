@@ -1,0 +1,177 @@
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    color: #BF0413;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #D94A64;
+    border-bottom: 2px solid #D94A64;
+    padding-bottom: 15px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo,
+.menu {
+    display: inline-block;
+}
+
+.menu {
+    position: relative;
+    bottom: 40px;
+}
+
+.slider {
+    background-image: url('../img/slider3.png');
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+.item img {
+    width: 100%;
+    padding: 5%;
+}
+
+.item .titulo,
+.item .preco {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #BF0413;
+}
+
+.btn {
+    background-color: #BF0413;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #D90404;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #BF0413;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer label,
+footer input,
+footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer input[type="button"] {
+    background-color: #BF0413;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+footer input[type="button"]:hover {
+    background-color: #D90404;
+    transform: scale(1.05);
+}
+
+
+.whatsapp {
+    background-color: #28a745;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 5px solid #F2F2F2;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    font-weight: bold;
+}
+
+.whatsapp:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+
+.sobre {
+    font-size: 22px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.sobre p,
+.sobre img {
+    display: inline-block;
+    width: 46%;
+    padding: 1%;
+    border-radius: 30px;
+}
+
+.sobre h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: #BF0413;
+}
+
+.sobre p {
+    float: left;
+    text-align: justify;
+}
