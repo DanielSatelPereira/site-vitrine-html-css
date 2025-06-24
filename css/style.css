@@ -115,7 +115,7 @@ footer form {
 footer input[type="button"] {
     background-color: #BF0413;
     color: #fff;
-    border: none;
+    border: 2px solid #F2F2F2;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -125,8 +125,8 @@ footer input[type="button"] {
 footer input[type="button"]:hover {
     background-color: #D90404;
     transform: scale(1.05);
+    border-color: #fff;
 }
-
 
 .whatsapp {
     background-color: #28a745;
@@ -174,4 +174,23 @@ footer input[type="button"]:hover {
 .sobre p {
     float: left;
     text-align: justify;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.item {
+    flex: 1 1 30%;
+    margin: 1%;
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
