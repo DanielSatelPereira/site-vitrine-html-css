@@ -1,6 +1,6 @@
 # Site Vitrine - HTML e CSS Puro
 
-Este projeto é um site vitrine simples feito com **HTML5** e **CSS3 puro**, desenvolvido como exercício prático para a disciplina de **Desenvolvimento Web**.
+Este projeto é um site vitrine simples feito com **HTML5** e **CSS3 puro**, desenvolvido como exercício prático para a disciplina de **HTML e CSS**.
 
 ## 📌 Funcionalidades
 
